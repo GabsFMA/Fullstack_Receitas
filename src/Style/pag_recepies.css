@@ -1,0 +1,22 @@
+body{
+    background-color: #F4D19A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px 0px;
+}
+
+header .btt_voltar{
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    left: 0;
+    font-size: 40px;
+    color: #F5BD0E
+}
