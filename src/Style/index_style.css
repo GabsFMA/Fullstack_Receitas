@@ -18,6 +18,7 @@ body{
     gap: 10px;
     justify-content: center;
     padding: 20px;
+    align-items: center;
 }
 
 .receita_seletor img{
@@ -32,20 +33,50 @@ body{
     display: inline-block;
     width: 250px;
     height: 250px;
+    
 }
 
-.receita_tipo h2{
+.receita_tipo .receita_titulo {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
-.receita_tipo h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.receita_titulo:hover{
+    transform: scale(1.5);
+    color: #82301D;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.receita_tipo h2 a{
+.receita_tipo .receita_titulo a{
     text-decoration: none;
+    color: #FA6008;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #CE8C34;;
+}
+
+.redes ul{
+    list-style: none;
+}
+
+.redes ul li{
+    font-size: 24px;
+}
+
+.redes ul li a{
+    text-decoration: none;
+    color: #CE8C34;
+}
+
