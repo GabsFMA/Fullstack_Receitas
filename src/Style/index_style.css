@@ -1,0 +1,51 @@
+body{
+    background-color: #F4D19A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pag_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #CE8C34;
+    font: bold;
+}
+
+.receita_seletor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.receita_seletor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.receita_tipo{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.receita_tipo h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.receita_tipo h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.receita_tipo h2 a{
+    text-decoration: none;
+}
