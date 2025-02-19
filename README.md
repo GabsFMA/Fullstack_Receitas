@@ -4,20 +4,12 @@ Projeto de um site de receitas desenvolvido com **HTML** e **CSS**, apresentando
 
 ## 📂 Estrutura do Projeto
 
-FullStack_Receitas/
-│── .vscode/
-│── Assets/                  # Arquivos estáticos (favicon, imagens)
-│── src/
-│   ├── Pages/               # Páginas individuais de receitas
-│   │   ├── pag_burruti.html
-│   │   ├── pag_lasanha.html
-│   │   ├── pag_pizza.html
-│   ├── Style/               # Estilos CSS
-│   │   ├── index_style.css
-│   │   ├── media_queries.css
-│   │   ├── pag_recepies.css
-│── index.html               # Página principal
-│── .gitattributes           # Configuração do Git
+- **Assets**: Contém as imagens e ícones usados no site.
+- **src/Pages**: Contém as páginas HTML individuais para cada receita.
+- **src/Style**: Contém os arquivos CSS para estilização do site.
+  - `index_style.css`: Estilos para a página inicial.
+  - `media_queries.css`: Estilos responsivos para diferentes tamanhos de tela.
+  - `pag_receples.css`: Estilos específicos para as páginas de receitas.
 
 ## 🎨 Tecnologias Utilizadas
 
